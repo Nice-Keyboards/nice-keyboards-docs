@@ -1,0 +1,5 @@
+- [Home](/)
+- nice!nano
+  - [Overview](/nice!nano/)
+  - [Pinout](/nice!nano/pinout)
+  - [FAQ](/nice!nano/faq)

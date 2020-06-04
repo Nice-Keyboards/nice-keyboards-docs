@@ -1,0 +1,2 @@
+- [Home](/)
+- [nice!nano](/nice!nano/)
