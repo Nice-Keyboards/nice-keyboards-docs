@@ -1,2 +1,3 @@
 - [Home](/)
 - [nice!nano](/nice!nano/)
+- [Wireless Firmware](/wireless_firmware/)

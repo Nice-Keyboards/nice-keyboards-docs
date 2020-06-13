@@ -1,5 +1,10 @@
 - [Home](/)
 - nice!nano
   - [Overview](/nice!nano/)
+  - [Build Tips](/nice!nano/build_tips)
   - [Pinout](/nice!nano/pinout)
   - [FAQ](/nice!nano/faq)
+- Wireless Keyboard Firmware
+  - [Summary](/wireless_firmware/)
+  - [BlueMicro](/wireless_firmware/bluemicro)
+  - [QMK Forks](/wireless_firmware/qmk_forks)
