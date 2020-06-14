@@ -3,7 +3,7 @@
 This page is a long list of tips and reminders before you use the nice!nano to build your board.
 
 ## Batteries
-- ONLY use rechargeable lithium batteries with the nice!nano. Connecting non-rechargeable batteries to the board is unsafe.
+- ONLY use 3.7v rechargeable lithium batteries with the nice!nano. Connecting non-rechargeable batteries to the board is unsafe.
 - When soldering the battery, use the B+ and B- pins at the top of the board (see [pinout](/nice!nano/pinout)). Minimize how long you are holding the soldering iron on the battery. High amounts of heat are dangerous to connect the battery to.
 - You can also use RAW and GND pins instead of B+ and B- pins respectively, although this isn't as convenient most likely.
 
