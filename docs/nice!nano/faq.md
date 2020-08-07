@@ -2,7 +2,7 @@
 
 ### Will the nice!nano work on x keyboard?
 
-Probably. Almost every Pro Micro based keyboard should work with the nice!nano. Limitations would be around height of the board (fitting a battery underneath will make the entire module + battery 6mm tall when hotswapped for example) and running at 3.3V rather than 5V, which shouldn't be much of an issue. Tested on the Lily58 and the Semaphore so far.
+Probably. Almost every Pro Micro based keyboard should work with the nice!nano. Limitations would be around height of the board (fitting a battery underneath will make the entire module + battery 6mm tall when hotswapped for example) and running at 3.3V rather than 5V, which shouldn't be much of an issue. Tested on the Lily58, Semaphore, and Kyria so far.
 
 !> The nice!nano will *NOT* work with the Gherkin unless you don't connect the RAW pin to the board.
 
@@ -37,7 +37,3 @@ The nRFmicro is extremely similar to the nice!nano. The main difference is depen
 ### Do you still need a TRRS jack?
 
 No, there's a connection via BLE between the two boards. The master reports back the keystrokes of both sides.
-
-### Does it get annoying to type nice!nano?
-
-Yea

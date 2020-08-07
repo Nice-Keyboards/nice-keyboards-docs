@@ -13,7 +13,7 @@ This page is a long list of tips and reminders before you use the nice!nano to b
   1. First install the socket into the PCB trying to keep it as straight as possible.
   2. Once the sockets are in, place tape over the top of each side.
   3. Poke holes where each socket hole is into the tape
-  4. Place down the nice!nano (to assure alignment, make sure the B+ and B- pins are not being put into the socket)
+  4. Place down the nice!nano (to assure alignment, **make sure the B+ and B- pins are not being put into the socket**)
   5. Put diode legs (or MillMax socket pins) into each hole and push all the way down
   6. Solder the legs to the nice!nano (this is where the tape helps, solder wont seep down into the socket and fuse the socket and legs)
   7. Take the nice!nano out by using a pry tool of some sort. Slowly pry back and forth on all sides.
