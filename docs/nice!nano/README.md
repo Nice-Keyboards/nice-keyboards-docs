@@ -12,8 +12,11 @@ If you're a hardware designer interested to learn more about the pinout and sche
 
 To run your nice!nano wirelessly, you need a battery. In specific, you need a 3.7v rechargeable lithium battery that is at least 100mAh large (you can probably get away with 80mAh). Note when choosing a battery, the recharge rate is 100mA, so a 2,000mAh battery will take 20 hours to charge. **The overall recommended battery for most low power (no LEDs or extra power sinks) is the 301230 battery**. This battery is 3mm thick and fits underneath a socketed nice!nano very nicely. These can be found on some vendors' stores as well as on AliExpress.
 
-It's also highly recommended that you socket your nice!nano. It offers ease of access to the battery and makes debugging your keyboard so much easier. In short, it's a small investment to save you lots of time and possibly money in the future. **Standard female machine pin sockets are recommended to go along with the 301230 battery**. In most cases the battery should fit underneath the socketed nice!nano. Be weary o flipped nice!nanos *with* pins and other parts underneath (you don't want to puncture your battery!). You can find these on AliExpress all over the place.
+It's also highly recommended that you socket your nice!nano. It offers ease of access to the battery and makes debugging your keyboard so much easier. In short, it's a small investment to save you lots of time and possibly money in the future. **Standard female machine pin sockets are recommended to go along with the 301230 battery**. In most cases the battery should fit underneath the socketed nice!nano. Be weary o flipped nice!nanos _with_ pins and other parts underneath (you don't want to puncture your battery!). You can find these on AliExpress all over the place.
 
+## Bootloader
+
+The nice!nano uses the [Adafruit nRF52 Bootloader](https://github.com/adafruit/Adafruit_nRF52_Bootloader). Currently it doesn't have a release of the nice!nano bootloader yet, so please use this one I've generated and put on every nice!nano thus far. [Click here to download](//docs.nicekeyboards.com/assets/nicenano_bootloader_v1.hex).
 
 ## Specifications
 
