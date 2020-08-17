@@ -38,7 +38,7 @@ In addition to the environment for pro micro, `arm-none-eabi-gcc` is required. (
 If everything was installed during the QMK official setup, the environment for arm should be installed at the same time.
 If you removed the arm environment and set it up, execute the setup command again to perform an additional installation.
 
-Also, download [nRF5_SDK v15.0.0](https://developer.nordicsemi.com/nRF5_SDK/nRF5_SDK_v15.xx/) and extract it in a suitable location.
+Also, download [nRF5_SDK v15.0.0](https://developer.nordicsemi.com/nRF5_SDK/nRF5_SDK_v15.x.x/) and extract it in a suitable location.
 
 ### Firmware creation
 
