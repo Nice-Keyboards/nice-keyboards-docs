@@ -5,27 +5,22 @@ Firmware is an extremely important part of a keyboard. Custom wireless keyboards
 
 ## Options
 
-- ### [BlueMicro](/wireless_firmware/bluemicro) - Recommended
-  - BlueMicro is an easy to set up firmware for nRF52 chips utilizing Arduino
-  - Pros:
-    - Easy to set up
-    - Good wireless performance
-  - Cons:
-    - No USB support
-- ### [ZMK](/wireless_firmware/zmk) - New and shiny!
+- ### [ZMK](/wireless_firmware/zmk) - Recommended
   - ZMK is an extremely promising firmware with a wireless first approach and permissive licensing
   - Pros:
     - Well designed board system leveraging Zephyr RTOS
-    - Supports much more than just the nRF52
+    - Best-in-class power usage
+    - Extremely easy to set up with no local build environment required
+    - Supports much more than just the nRF52 including many ARM wired keyboards
     - USB support
   - Cons
-    - Core functionality is still evolving and incomplete
-- ### [QMK Forks](/wireless_firmware/qmk_forks) - Experimental
-  - QMK forks exist that let you use QMK with nRF52 chips (the nice!nano is one)
+    - Understanding the board system may take some time for those used to other firmwares
+- ### [BlueMicro](/wireless_firmware/bluemicro) - Recommended
+  - BlueMicro is an easy to set up firmware for nRF52 chips utilizing Arduino
   - Pros:
-    - It's QMK!
+    - Based on Arduino, which some may be familiar with
+    - Reliable wireless connection between halves
   - Cons:
-    - Not all features are tested
-    - Forks lag behind the main QMK repository substantially
-    - It's a bit finnicky to set up
-    - Legality is in question
+    - No USB support
+    - Higher power usage
+    - Locked into the nRF52 ecosystem

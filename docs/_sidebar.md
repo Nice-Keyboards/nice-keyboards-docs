@@ -3,9 +3,9 @@
   - [Overview](/nice!nano/)
   - [Getting Started](/nice!nano/getting_started)
   - [Pinout & Schematic](/nice!nano/pinout_schematic)
+  - [Troubleshooting](/nice!nano/troubleshooting)
   - [FAQ](/nice!nano/faq)
 - Wireless Keyboard Firmware
   - [Summary](/wireless_firmware/)
-  - [BlueMicro](/wireless_firmware/bluemicro)
   - [ZMK](/wireless_firmware/zmk)
-  - [QMK Forks](/wireless_firmware/qmk_forks)
+  - [BlueMicro](/wireless_firmware/bluemicro)

@@ -4,7 +4,7 @@
 
 Probably. Almost every Pro Micro based keyboard should work with the nice!nano. Limitations would be around height of the board (fitting a battery underneath will make the entire module + battery 6mm tall when hotswapped for example) and running at 3.3V rather than 5V, which shouldn't be much of an issue. Tested on the Lily58, Semaphore, and Kyria so far.
 
-!> The nice!nano will *NOT* work with the Gherkin unless you don't connect the RAW pin to the board.
+!> The nice!nano will *NOT* work with the Gherkin or Helix unless you don't connect the RAW pin to the board.
 
 ### How is the nice!nano powered/how do the split boards power each other?
 
@@ -24,7 +24,7 @@ Yes, but not every firmware supports it.
 
 ### QMK firmware support?
 
-This is complicated. Nordic's nRF52 line has some licensing issues with its SDK making it not possible to be upstreamed to the main QMK repo. There are some QMK forks such as sekigon's, but the legality is questionable at best. At the same time the BlueMicro firmware (https://github.com/jpconstantineau/BlueMicro_BLE) is available and promising in my opinion. Take a look and contribute! It works with the nice!nano.
+This is complicated. Nordic's nRF52 line has some licensing issues with its SDK making it not possible to be upstreamed to the main QMK repo. Instead, we rely on other firmwares like [ZMK or BlueMicro](/wireless_firmware/) that offer a great deal of functionality with full legality and wireless focus.
 
 ### Can I get more information on nRF52840 hardware?
 
