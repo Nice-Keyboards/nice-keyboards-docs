@@ -9,7 +9,7 @@ Before you install your nice!nano please note these tips/warnings:
  - Do not install sockets or post headers to the B+ or B- pins (top pin on each side)
    - If you need to use these pins with your PCB, RAW and GND are the respective equivalents to B+ and B-
  - The square post headers that come with the nice!nano cannot be used with the machine sockets
-   - Use Mill-Max pin legs or diode legs and folow the directions in [installing your nice!nano](#installing-your-nicenano)
+   - Use Mill-Max pin legs or diode legs and follow the directions in [installing your nice!nano](#installing-your-nicenano)
  - Only use 3.7V rechargeable lithium batteries with the nice!nano. Connecting non-rechargeable batteries is unsafe
  - If you choose to solder your battery, use the B+ and B- pins. B+ is for the positive, red wire, and the B- pin is for the negative, black wire. Minimize how long you are holding the soldering iron to the battery. High amounts of heat are dangerous to connect the battery to.
  - If you are using a JST connector on the PCB to connect the battery, double or even quadruple check the polarity of the JST connector before plugging it in. Some batteries come with positive on the first pin and some come with negative on the first pin.
