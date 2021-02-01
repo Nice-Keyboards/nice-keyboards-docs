@@ -31,7 +31,7 @@ If you can't get into the bootloader anymore, this will mean you'll need a devic
 #### [J-Link (~\$30)](https://www.amazon.com/Segger-J-Link-EDU-mini-Debugger/dp/B0758XRMTF)
 
 1. Plug in your nice!nano over USB
-2. Connect these 4 pins to the nice!nano (use the [pinout](/docs/nice!nano/pinout_schematic) as reference)
+2. Connect these 4 pins to the nice!nano (use the [pinout](/nice!nano/pinout_schematic) as reference)
    1. VCC/VTref will connect to the VCC pin on the nice!nano
    2. GND will connect to any of the GND pins on the nice!nano
    3. SWDIO will connect to the SWD pin on the back of the nice!nano
@@ -47,7 +47,7 @@ nrfjprog -f NRF52 --program nicenano_bootloader_v1.hex --chiperase
 #### [ST-Link v2 (~\$4)](https://www.aliexpress.com/wholesale?trafficChannel=main&d=y&CatId=0&SearchText=st+link+v2&ltype=wholesale&SortType=total_tranpro_desc&groupsort=1&page=1)
 
 1. Plug in your nice!nano over USB
-2. Connect these 2 pins to the nice!nano (use the [pinout](/docs/nice!nano/pinout_schematic) as reference)
+2. Connect these 2 pins to the nice!nano (use the [pinout](/nice!nano/pinout_schematic) as reference)
    1. SWDIO will connect to the SWD pin on the back of the nice!nano
    2. SWCLK will connect to the SWC pin on the back of the nice!nano
 3. Download the [bootloader hex](//docs.nicekeyboards.com/assets/nicenano_bootloader_v1.hex)
